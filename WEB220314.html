@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Team Dynamics Games</title>
+    <link rel="stylesheet" href="css220314.css"
+  </head>
+
+  <body>
+    <script>
+      document.body.style.backgroundColor = 'powderBlue';
+    </script>
+    <h1 class="Pagetitle">Team Dynamics Games</h1>
+
+    <div id="grid">
+      <div>
+        <ol>
+          <li><a href="https://www.op.gg/summoners/kr/%ED%94%BC%EC%BD%9C%EB%A1%9C%EC%A7%84">
+            Kim Hyuk Jin</a></li>
+          <li><a href="https://www.op.gg/summoners/kr/%EC%A7%96%EC%9C%BC%EB%9D%BC%EB%A9%B4%EC%A7%96%EB%8A%94%EB%82%A8%EC%9E%90">
+            Han Ik Hee</a></li>
+          <li><a href="https://www.op.gg/summoners/kr/pmh">
+            Park Min Hyuk</a></li>
+          <li><a href="https://www.op.gg/summoners/kr/%EC%BF%A4%EC%9D%B4%ED%8C%8C%ED%8C%8C">
+            Hwang Yun Jae</a></li>
+          <li><a href="https://www.op.gg/summoners/kr/%EC%94%A8%EC%97%90%EC%8A%A4%EB%A8%B9%EC%9C%BC%EB%A9%B4%ED%85%9C%ED%8C%9C">
+            Choi Young Hoon</a></li>
+        </ol>
+
+        <img src="https://scontent-ssn1-1.xx.fbcdn.net/v/t1.6435-9/137292985_103023425094471_5976426044799109427_n.jpg?
+        _nc_cat=111&ccb=1-5&_nc_sid=e3f864&_nc_ohc=BRpz5AjbvlsAX9rBZ_6&_nc_ht=scontent-ssn1-1.xx&oh=00_AT8cAQZF0dYEYcnJ2prj0FbDrS8dz8YDk8ekbtql5EPizQ&oe=6252F38B"
+        width="80%";>
+      </div>
+
+      <div class="description">
+        Welcome to the Team Dynamics Games homepage.<br>
+        Please enjoy the highlights of our team members.<br>
+        The video below is our ace Han Ik Hee's Lee Sin play.
+      </div>
+    </div>
+
+    <div class="youtube">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/AqA9XIolLqk"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+      </iframe>
+    </div>
+
+    <input type="button" value="night"
+      onclick="if (this.value === 'night') {
+        this.value = 'day';
+        document.body.style.backgroundColor = 'black';
+        document.body.style.color = 'white';
+
+          var i = 0;
+          while (i < document.querySelectorAll('a').length) {
+          document.querySelectorAll('a')[i].style.color = 'powderBlue';
+          i = i + 1;
+          }
+        } else {
+        this.value = 'night';
+        document.body.style.backgroundColor = 'powderBlue';
+        document.body.style.color = 'black';
+
+          var i = 0;
+          while (i < document.querySelectorAll('a').length) {
+          document.querySelectorAll('a')[i].style.color = 'purple';
+          i = i + 1;
+          }
+        }"
+  </body>
+</html>
